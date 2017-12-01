@@ -10,4 +10,4 @@ License:         GPLv2 or later
 License URI:     http://www.gnu.org/licenses/gpl-2.0.html
 */
 
-add_filter( 'automatic_updates_is_vcs_checkout', '__return_true', 1 );
+add_filter( 'automatic_updates_is_vcs_checkout', '__return_false');
