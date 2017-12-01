@@ -4,3 +4,7 @@ WordPress はデフォルトでは `.git` が存在すると自動更新され�
 1行で済むことだけど全部のテーマに書くのは大変なのでプラグイン化。  
 WP公式には登録せず composer から使う前提。  
 mu-plugin なのでインストールすれば常に有効。
+
+```
+composer require revolution/enable-automatic-updates-vcs
+```
